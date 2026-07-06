@@ -106,4 +106,42 @@
 # perimeter=2*(width+height)
 # print(f"Area: {area}, Perimeter: {perimeter}")
 
+# item1=float(input("your first item is:"))
+# item2=float(input("your second item is:"))
+# item3=float(input("your third item is:"))
+# total=item1+item2+item3
+# gst = total * 18 /100
+# print("the total bill including gst is:" ,total+gst) 
 
+
+# food_items=["shawarma","coke", "icecream", "biryani"]
+# prices=[100,30,50,200]
+# a=input("enter the first item:")
+# b=input("enter the second item:")
+# item1=food_items.index(a)
+# item2=food_items.index(b)
+# price1 = prices[food_items.index(item1)]
+# price2 = prices[food_items.index(item2)]
+# total=price1+price2 
+# gst = total * 18 /100
+# print("the total bill including gst is:" ,total+gst)
+
+
+categories=["silver", "gold", "platimun"]
+prices=[200,300,400]
+cat1=input("enter the no of first category:")
+cat2=input("enter the no of second category:")
+ticket1=int(input("enter the first of ticket:"))
+ticket2=int(input("enter the second of ticket:"))
+price1=prices[categories.index(cat1)]
+price2=prices[categories.index(cat2)]
+total= (price1*cat1)+(price2*cat2)
+sum = total+0.12
+print("the final bill is:", total)
+
+
+# g=[11,33,44,22,55]
+# g.remove(22)
+# # print(g)
+# g.pop()
+# print(g)
